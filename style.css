@@ -1,0 +1,52 @@
+/*============== layout =================*/
+
+body { 
+	background: url(images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;	
+    opacity : 0.5;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+	padding: 13px;
+	font-size: 23px;
+	color: white;
+}
+
+.capa{
+    display: table;
+	width: 100%;
+	padding-top: 220px;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/*================ tipografia ========================*/
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
